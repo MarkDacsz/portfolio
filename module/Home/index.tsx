@@ -1,12 +1,11 @@
-import Content from '@/module/Home'
 import React from 'react'
+import  Content  from '@/module/Home/Content';
 
 const Home = () => {
   return (
     <>
     <Content/>
     </>
-    
   )
 }
 

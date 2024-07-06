@@ -1,11 +1,12 @@
 import React from 'react'
+import { ChevronRight } from 'lucide-react'
 
-const Content = () => {
+const UpdateSection = () => {
   return (
-    <div>
-        hello
-    </div>
+    <>
+    </>
+  
   )
 }
 
-export default Content
+export default UpdateSection
