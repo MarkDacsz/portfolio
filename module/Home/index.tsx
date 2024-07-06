@@ -1,4 +1,4 @@
-import Content from '@/module/Home/Content'
+import Content from '@/module/Home'
 import React from 'react'
 
 const Home = () => {
