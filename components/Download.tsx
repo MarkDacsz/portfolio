@@ -14,7 +14,7 @@ const Download = () => {
   return (
     <>
       <center>
-        <button className="bg-white hover:bg-red-300 text-black font-bold py-2 px-4 rounded" onClick={onButtonClick}>Download PDF</button>
+        <button className="bg-white hover:bg-red-300 text-black font-bold py-2 px-4 rounded" onClick={onButtonClick}>Download CV</button>
       </center>
     </>
   );
