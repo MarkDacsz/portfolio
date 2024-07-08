@@ -1,5 +1,4 @@
 import React from 'react'
-import { ChevronRight } from 'lucide-react'
 import Download from '@/components/Download'
 
 const UpdateSection = () => {
