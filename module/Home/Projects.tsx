@@ -9,7 +9,7 @@ import 'react-slideshow-image/dist/styles.css'
   alignItems: 'center',
   justifyContent: 'center',
   backgroundSize: 'cover', 
-  height: '247px',
+  height: '245px',
   width: '100%' // add this to make the image fit the container
   }
   const slideImages = [
@@ -30,7 +30,7 @@ import 'react-slideshow-image/dist/styles.css'
 
 const Projects = () => {
   return (
-    <div className="bg-black h-full p-8"> 
+  <div className="bg-black h-full p-8"> 
       <div className="flex-wrap container mx-auto p-4">
         <div className="p-8 text-left text-white ">
           <h1 className="text-5xl pr-6 font-bold text-gray pb-4">Sample Projects</h1>
@@ -72,8 +72,7 @@ const Projects = () => {
         </div>
       </div>
     </div>
-
-    </div>
+  </div>
   )
 }
 
