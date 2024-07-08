@@ -2,11 +2,11 @@ import React from 'react'
 
 const Experience = () => {
   return (
-    <div className="bg-white">
- 
+
+ <div className="bg-cover object-contain bg-center bg-no-repeat bg-[url('/1.png')]">
     <div className="flex-wrap container mx-auto p-4">
-      <div className="grid grid-cols-1 md:grid-cols-2  py-10 gap-3">
-        <div className="p-8 text-left bg-gray-100 rounded-md border border-zinc-600">
+      <div className="grid grid-cols-1 md:grid-cols-2 py-10 gap-3">
+        <div className="p-8 text-left ">
           <h1 className="text-5xl pr-6 font-bold text-gray pb-4">Educational</h1>
           <p className="text-2xl  pr-6 text-gray font-bold  text pt-4">College:</p>
           <p className="text-2xl  pr-6 text-gray  text">Colegio De San Juan De Letran - Calamba</p>
@@ -22,7 +22,7 @@ const Experience = () => {
  
         </div>
   
-        <div className="p-8 text-left bg-gray-100 rounded-md border border-zinc-600">
+        <div className="p-8 text-left">
         <h1 className="text-5xl pr-6 font-bold text-gray pb-4">Experience</h1>
           <p className="text-2xl  pr-6 text-gray font-bold  text pt-4">Zkript Solutions OPC | Paete, Laguna</p>
           <p className="text-2xl  pr-6 text-gray  text">March 2024 - May 2024</p>
@@ -47,11 +47,9 @@ const Experience = () => {
       </div>
     </div>
   
-    <div className="absolute bottom-0 left-0 right-0 p-4 text-center">
-      <i className="fas fa-chevron-down text-3xl text-white animate-bounce"></i>
-    </div>
   
   </div>
+
   )
 }
 
