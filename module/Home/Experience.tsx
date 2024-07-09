@@ -4,7 +4,7 @@ const Experience = () => {
   return (
 
  <div className="bg-cover object-contain bg-center bg-no-repeat bg-[url('/1.png')]">
-    <div className="flex-wrap container mx-auto p-4">
+    <div className="flex-wrap container mx-auto p-4 h-full">
       <div className="grid grid-cols-1 md:grid-cols-2 py-10 gap-3">
         <div className="p-8 text-left ">
           <h1 className="text-5xl pr-6 font-bold text-gray pb-4">Educational</h1>
