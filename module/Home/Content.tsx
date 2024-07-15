@@ -18,7 +18,7 @@ const Content = () => {
             </p>
             <Download/>
           </div>
-          <div className="md:block lg:block xl:block bg-cover h-full  object-contain bg-center bg-no-repeat bg-[url('/dacsil.png')] "></div>
+          <div className="hidden md:block lg:block xl:block bg-cover h-full  object-contain bg-center bg-no-repeat bg-[url('/dacsil.png')] "></div>
         </div>
       </div>
     </div>
