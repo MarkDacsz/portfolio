@@ -25,6 +25,9 @@ import 'react-slideshow-image/dist/styles.css'
     {
       url: 'clientshirt.jpg',
     },
+    {
+      url: 'cln.png',
+    },
   ];
 const Picture = () => {
   return (
