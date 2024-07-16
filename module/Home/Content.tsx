@@ -1,5 +1,6 @@
 import React from 'react'
 import Download from '@/components/Download'
+import { Facebook, Instagram, LinkedinIcon } from 'lucide-react'
 
 const Content = () => {
   return (
@@ -16,9 +17,35 @@ const Content = () => {
               Whether you're here to explore my work or connect for potential opportunities, 
               I look forward to sharing my passion for IT with you.
             </p>
-            <Download/>
-          </div>
+
+
+            <p className="text-2xl py-2 pr-6 text-white text-center">SOCIAL MEDIA LINKS:</p>
+            <div className="grid grid-cols-3 md:grid-cols-3 ">
+              <div className="flex justify-center">
+                <a href="https://www.linkedin.com/in/john-chrismark-dacsil-00b7a8316" target="_blank" rel="noopener noreferrer">
+                  <LinkedinIcon className="text-white"/>
+                </a>
+              </div>
+              <div className="flex justify-center">
+                <a href="https://www.facebook.com/johnchrismark.dacsil/" target="_blank" rel="noopener noreferrer">
+                  <Facebook className="text-white"/>
+                </a>
+              </div>
+              <div className="flex justify-center">
+                <a href="https://www.instagram.com/knowitskey/" target="_blank" rel="noopener noreferrer">
+                  <Instagram className="text-white"/>
+                </a>
+              </div>
+           </div>
+            <div className="pt-8">
+                <Download/>
+            </div>
+          
+
+        </div>
           <div className="hidden md:block lg:block xl:block bg-cover h-full  object-contain bg-center bg-no-repeat bg-[url('/dacsil.png')] "></div>
+        
+           
         </div>
       </div>
     </div>
