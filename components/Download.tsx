@@ -4,10 +4,10 @@ import { useCallback } from "react";
 
 const Download = () => {
   const onButtonClick = useCallback(() => {
-    const pdfUrl = "Resume.pdf";
+    const pdfUrl = "Updated Resume - Dacsil.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = "Resume.pdf";
+    link.download = "Updated Resume - Dacsil.pdf";
     link.click();
   }, []);
 
